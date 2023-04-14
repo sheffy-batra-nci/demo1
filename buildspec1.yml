@@ -15,7 +15,7 @@ phases:
       - export PATH=$PATH:/sonar-scanner-3.3.0.1492-linux/bin/
   build:
     commands:
-      - sonar-sonar \
+      - sonar:sonar \
           -Dsonar.projectKey=devops
           -Dsonar.organization=sheffy-batra-nci
           -Dsonar.sources=. \
